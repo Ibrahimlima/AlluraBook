@@ -1,0 +1,28 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topico.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #ebecee;
+    --cor-basica: #ffffff;
+    --cor-basica-2: #000000;
+    --cor-destaque: #EB9B00;
+    --cor-destaque-2: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-destaque-3: #002F52;
+    --cor-footer: #f9f9f9;
+    --cor-lista-titulo: #858585;
+    --cor-lista-item: #474646;
+    --font-principal: 'poppins';    
+    --font-secundaria: 'josefin sans'
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
